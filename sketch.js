@@ -60,7 +60,7 @@ function draw(){
     fill(200, 200, 200);
     stroke("white");
     rect(400, 80, 375, 50);
-    keyPressed();
+   
 }
 function keyPressed() {
     if (keyCode === UP_ARROW) { 
