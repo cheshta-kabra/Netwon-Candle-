@@ -35,6 +35,7 @@ function setup(){
     ball5 = new Ball(590, 100, 35);
     rope5 = new String(ball5.body, {x: 540, y: 80}, ropeLength, ropeStiffness);
     //slingshot = new Slingshot(bird.body, {x: 120, y: 180}, 50, 0.01);
+     keyPressed();
 }
 
 function draw(){
