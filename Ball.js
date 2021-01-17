@@ -20,6 +20,7 @@ class Ball {
       strokeWeight(4);
       fill(100, 100, 100);
       ellipse(0, 0, this.width);
+      keyPressed();
       pop();
     }
   };
