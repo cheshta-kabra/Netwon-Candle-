@@ -6,8 +6,10 @@ class Ball {
           'density':1,
           'frictionAir': 0,
       }
-     this.body={{pos.x,pos.y}}
-      this.width = width;
+     this.x=x;
+	 this.y=y;
+     this.width = width;
+     this.body=Bodies.circle(this.x, this.y,options)
 
       World.add(world, this.body);
     }
