@@ -6,7 +6,7 @@ class Ball {
           'density':1,
           'frictionAir': 0,
       }
-      this.body = Bodies.circle(x, y, width, options);
+      function keyPressed() { if (keyCode === UP_ARROW) { Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:-50,y:-45}); } } 
       this.width = width;
 
       World.add(world, this.body);
